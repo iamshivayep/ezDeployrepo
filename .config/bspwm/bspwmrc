@@ -21,4 +21,4 @@ bspc rule -a Screenkey manage=off
 nitrogen --restore &
 picom &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-sh /home/shiva/.config/polybar/launch.sh --forest & 
+sh $HOME/.config/polybar/launch.sh --forest & 
